@@ -1,0 +1,147 @@
+[29-Jun-2017 07:25:55 UTC] PHP Fatal error:  Class 'Barryvdh¥Debugbar¥ServiceProvider' not found in /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[29-Jun-2017 07:25:55 UTC] PHP Stack trace:
+[29-Jun-2017 07:25:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cms/artisan:0
+[29-Jun-2017 07:25:55 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/cms/artisan:36
+[29-Jun-2017 07:25:55 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[29-Jun-2017 07:25:55 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:219
+[29-Jun-2017 07:25:55 UTC] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[29-Jun-2017 07:25:55 UTC] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[29-Jun-2017 07:25:55 UTC] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:530
+[29-Jun-2017 07:25:55 UTC] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[29-Jun-2017 07:25:55 UTC] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[29-Jun-2017 07:26:47 UTC] PHP Fatal error:  Class 'Barryvdh¥Debugbar¥ServiceProvider' not found in /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[29-Jun-2017 07:26:47 UTC] PHP Stack trace:
+[29-Jun-2017 07:26:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cms/artisan:0
+[29-Jun-2017 07:26:47 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/cms/artisan:36
+[29-Jun-2017 07:26:47 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[29-Jun-2017 07:26:47 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:219
+[29-Jun-2017 07:26:47 UTC] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[29-Jun-2017 07:26:47 UTC] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[29-Jun-2017 07:26:47 UTC] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:530
+[29-Jun-2017 07:26:47 UTC] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[29-Jun-2017 07:26:47 UTC] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[29-Jun-2017 09:48:32 UTC] PHP Fatal error:  Call to undefined method CreateBookTable::down() in /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php on line 233
+[29-Jun-2017 09:48:32 UTC] PHP Stack trace:
+[29-Jun-2017 09:48:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cms/artisan:0
+[29-Jun-2017 09:48:32 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/cms/artisan:36
+[29-Jun-2017 09:48:32 UTC] PHP   3. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:107
+[29-Jun-2017 09:48:32 UTC] PHP   4. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/cms/vendor/symfony/console/Application.php:117
+[29-Jun-2017 09:48:32 UTC] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/cms/vendor/symfony/console/Application.php:186
+[29-Jun-2017 09:48:32 UTC] PHP   6. Illuminate\Console\Command->run() /home/ubuntu/workspace/cms/vendor/symfony/console/Application.php:794
+[29-Jun-2017 09:48:32 UTC] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:155
+[29-Jun-2017 09:48:32 UTC] PHP   8. Illuminate\Console\Command->execute() /home/ubuntu/workspace/cms/vendor/symfony/console/Command/Command.php:256
+[29-Jun-2017 09:48:32 UTC] PHP   9. Illuminate\Container\Container->call() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:169
+[29-Jun-2017 09:48:32 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[29-Jun-2017 09:48:32 UTC] PHP  11. Illuminate\Database\Console\Migrations\RefreshCommand->fire() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[29-Jun-2017 09:48:32 UTC] PHP  12. Illuminate\Console\Command->call() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/RefreshCommand.php:46
+[29-Jun-2017 09:48:32 UTC] PHP  13. Illuminate\Console\Command->run() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:185
+[29-Jun-2017 09:48:32 UTC] PHP  14. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:155
+[29-Jun-2017 09:48:32 UTC] PHP  15. Illuminate\Console\Command->execute() /home/ubuntu/workspace/cms/vendor/symfony/console/Command/Command.php:256
+[29-Jun-2017 09:48:32 UTC] PHP  16. Illuminate\Container\Container->call() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:169
+[29-Jun-2017 09:48:32 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[29-Jun-2017 09:48:32 UTC] PHP  18. Illuminate\Database\Console\Migrations\ResetCommand->fire() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[29-Jun-2017 09:48:32 UTC] PHP  19. Illuminate\Database\Migrations\Migrator->reset() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/ResetCommand.php:69
+[29-Jun-2017 09:48:32 UTC] PHP  20. Illuminate\Database\Migrations\Migrator->runDown() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:206
+[29-Jun-2017 09:49:44 UTC] PHP Fatal error:  Call to undefined method CreateBookTable::down() in /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php on line 233
+[29-Jun-2017 09:49:44 UTC] PHP Stack trace:
+[29-Jun-2017 09:49:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cms/artisan:0
+[29-Jun-2017 09:49:44 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/cms/artisan:36
+[29-Jun-2017 09:49:44 UTC] PHP   3. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:107
+[29-Jun-2017 09:49:44 UTC] PHP   4. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/cms/vendor/symfony/console/Application.php:117
+[29-Jun-2017 09:49:44 UTC] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/cms/vendor/symfony/console/Application.php:186
+[29-Jun-2017 09:49:44 UTC] PHP   6. Illuminate\Console\Command->run() /home/ubuntu/workspace/cms/vendor/symfony/console/Application.php:794
+[29-Jun-2017 09:49:44 UTC] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:155
+[29-Jun-2017 09:49:44 UTC] PHP   8. Illuminate\Console\Command->execute() /home/ubuntu/workspace/cms/vendor/symfony/console/Command/Command.php:256
+[29-Jun-2017 09:49:44 UTC] PHP   9. Illuminate\Container\Container->call() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:169
+[29-Jun-2017 09:49:44 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[29-Jun-2017 09:49:44 UTC] PHP  11. Illuminate\Database\Console\Migrations\ResetCommand->fire() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[29-Jun-2017 09:49:44 UTC] PHP  12. Illuminate\Database\Migrations\Migrator->reset() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/ResetCommand.php:69
+[29-Jun-2017 09:49:44 UTC] PHP  13. Illuminate\Database\Migrations\Migrator->runDown() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:206
+[29-Jun-2017 09:52:14 UTC] PHP Fatal error:  Call to undefined method CreateBookTable::down() in /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php on line 233
+[29-Jun-2017 09:52:14 UTC] PHP Stack trace:
+[29-Jun-2017 09:52:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cms/artisan:0
+[29-Jun-2017 09:52:14 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/cms/artisan:36
+[29-Jun-2017 09:52:14 UTC] PHP   3. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:107
+[29-Jun-2017 09:52:14 UTC] PHP   4. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/cms/vendor/symfony/console/Application.php:117
+[29-Jun-2017 09:52:14 UTC] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/cms/vendor/symfony/console/Application.php:186
+[29-Jun-2017 09:52:14 UTC] PHP   6. Illuminate\Console\Command->run() /home/ubuntu/workspace/cms/vendor/symfony/console/Application.php:794
+[29-Jun-2017 09:52:14 UTC] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:155
+[29-Jun-2017 09:52:14 UTC] PHP   8. Illuminate\Console\Command->execute() /home/ubuntu/workspace/cms/vendor/symfony/console/Command/Command.php:256
+[29-Jun-2017 09:52:14 UTC] PHP   9. Illuminate\Container\Container->call() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:169
+[29-Jun-2017 09:52:14 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[29-Jun-2017 09:52:14 UTC] PHP  11. Illuminate\Database\Console\Migrations\RefreshCommand->fire() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[29-Jun-2017 09:52:14 UTC] PHP  12. Illuminate\Console\Command->call() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/RefreshCommand.php:46
+[29-Jun-2017 09:52:14 UTC] PHP  13. Illuminate\Console\Command->run() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:185
+[29-Jun-2017 09:52:14 UTC] PHP  14. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:155
+[29-Jun-2017 09:52:14 UTC] PHP  15. Illuminate\Console\Command->execute() /home/ubuntu/workspace/cms/vendor/symfony/console/Command/Command.php:256
+[29-Jun-2017 09:52:14 UTC] PHP  16. Illuminate\Container\Container->call() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:169
+[29-Jun-2017 09:52:14 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[29-Jun-2017 09:52:14 UTC] PHP  18. Illuminate\Database\Console\Migrations\ResetCommand->fire() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[29-Jun-2017 09:52:14 UTC] PHP  19. Illuminate\Database\Migrations\Migrator->reset() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/ResetCommand.php:69
+[29-Jun-2017 09:52:14 UTC] PHP  20. Illuminate\Database\Migrations\Migrator->runDown() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:206
+[29-Jun-2017 09:52:58 UTC] PHP Fatal error:  Call to undefined method CreateBookTable::down() in /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php on line 233
+[29-Jun-2017 09:52:58 UTC] PHP Stack trace:
+[29-Jun-2017 09:52:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cms/artisan:0
+[29-Jun-2017 09:52:58 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/cms/artisan:36
+[29-Jun-2017 09:52:58 UTC] PHP   3. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:107
+[29-Jun-2017 09:52:58 UTC] PHP   4. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/cms/vendor/symfony/console/Application.php:117
+[29-Jun-2017 09:52:58 UTC] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/cms/vendor/symfony/console/Application.php:186
+[29-Jun-2017 09:52:58 UTC] PHP   6. Illuminate\Console\Command->run() /home/ubuntu/workspace/cms/vendor/symfony/console/Application.php:794
+[29-Jun-2017 09:52:58 UTC] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:155
+[29-Jun-2017 09:52:58 UTC] PHP   8. Illuminate\Console\Command->execute() /home/ubuntu/workspace/cms/vendor/symfony/console/Command/Command.php:256
+[29-Jun-2017 09:52:58 UTC] PHP   9. Illuminate\Container\Container->call() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:169
+[29-Jun-2017 09:52:58 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[29-Jun-2017 09:52:58 UTC] PHP  11. Illuminate\Database\Console\Migrations\RefreshCommand->fire() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[29-Jun-2017 09:52:58 UTC] PHP  12. Illuminate\Console\Command->call() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/RefreshCommand.php:46
+[29-Jun-2017 09:52:58 UTC] PHP  13. Illuminate\Console\Command->run() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:185
+[29-Jun-2017 09:52:58 UTC] PHP  14. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:155
+[29-Jun-2017 09:52:58 UTC] PHP  15. Illuminate\Console\Command->execute() /home/ubuntu/workspace/cms/vendor/symfony/console/Command/Command.php:256
+[29-Jun-2017 09:52:58 UTC] PHP  16. Illuminate\Container\Container->call() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:169
+[29-Jun-2017 09:52:58 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[29-Jun-2017 09:52:58 UTC] PHP  18. Illuminate\Database\Console\Migrations\ResetCommand->fire() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[29-Jun-2017 09:52:58 UTC] PHP  19. Illuminate\Database\Migrations\Migrator->reset() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/ResetCommand.php:69
+[29-Jun-2017 09:52:58 UTC] PHP  20. Illuminate\Database\Migrations\Migrator->runDown() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:206
+[29-Jun-2017 09:53:51 UTC] PHP Fatal error:  Call to undefined method CreateBookTable::down() in /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php on line 233
+[29-Jun-2017 09:53:51 UTC] PHP Stack trace:
+[29-Jun-2017 09:53:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cms/artisan:0
+[29-Jun-2017 09:53:51 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/cms/artisan:36
+[29-Jun-2017 09:53:51 UTC] PHP   3. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:107
+[29-Jun-2017 09:53:51 UTC] PHP   4. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/cms/vendor/symfony/console/Application.php:117
+[29-Jun-2017 09:53:51 UTC] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/cms/vendor/symfony/console/Application.php:186
+[29-Jun-2017 09:53:51 UTC] PHP   6. Illuminate\Console\Command->run() /home/ubuntu/workspace/cms/vendor/symfony/console/Application.php:794
+[29-Jun-2017 09:53:51 UTC] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:155
+[29-Jun-2017 09:53:51 UTC] PHP   8. Illuminate\Console\Command->execute() /home/ubuntu/workspace/cms/vendor/symfony/console/Command/Command.php:256
+[29-Jun-2017 09:53:51 UTC] PHP   9. Illuminate\Container\Container->call() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:169
+[29-Jun-2017 09:53:51 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[29-Jun-2017 09:53:51 UTC] PHP  11. Illuminate\Database\Console\Migrations\RefreshCommand->fire() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[29-Jun-2017 09:53:51 UTC] PHP  12. Illuminate\Console\Command->call() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/RefreshCommand.php:46
+[29-Jun-2017 09:53:51 UTC] PHP  13. Illuminate\Console\Command->run() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:185
+[29-Jun-2017 09:53:51 UTC] PHP  14. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:155
+[29-Jun-2017 09:53:51 UTC] PHP  15. Illuminate\Console\Command->execute() /home/ubuntu/workspace/cms/vendor/symfony/console/Command/Command.php:256
+[29-Jun-2017 09:53:51 UTC] PHP  16. Illuminate\Container\Container->call() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:169
+[29-Jun-2017 09:53:51 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[29-Jun-2017 09:53:51 UTC] PHP  18. Illuminate\Database\Console\Migrations\ResetCommand->fire() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[29-Jun-2017 09:53:51 UTC] PHP  19. Illuminate\Database\Migrations\Migrator->reset() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/ResetCommand.php:69
+[29-Jun-2017 09:53:51 UTC] PHP  20. Illuminate\Database\Migrations\Migrator->runDown() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:206
+[29-Jun-2017 09:55:33 UTC] PHP Fatal error:  Call to undefined method CreateBookTable::down() in /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php on line 233
+[29-Jun-2017 09:55:33 UTC] PHP Stack trace:
+[29-Jun-2017 09:55:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cms/artisan:0
+[29-Jun-2017 09:55:33 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/cms/artisan:36
+[29-Jun-2017 09:55:33 UTC] PHP   3. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:107
+[29-Jun-2017 09:55:33 UTC] PHP   4. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/cms/vendor/symfony/console/Application.php:117
+[29-Jun-2017 09:55:33 UTC] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/cms/vendor/symfony/console/Application.php:186
+[29-Jun-2017 09:55:33 UTC] PHP   6. Illuminate\Console\Command->run() /home/ubuntu/workspace/cms/vendor/symfony/console/Application.php:794
+[29-Jun-2017 09:55:33 UTC] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:155
+[29-Jun-2017 09:55:33 UTC] PHP   8. Illuminate\Console\Command->execute() /home/ubuntu/workspace/cms/vendor/symfony/console/Command/Command.php:256
+[29-Jun-2017 09:55:33 UTC] PHP   9. Illuminate\Container\Container->call() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:169
+[29-Jun-2017 09:55:33 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[29-Jun-2017 09:55:33 UTC] PHP  11. Illuminate\Database\Console\Migrations\RefreshCommand->fire() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[29-Jun-2017 09:55:33 UTC] PHP  12. Illuminate\Console\Command->call() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/RefreshCommand.php:46
+[29-Jun-2017 09:55:33 UTC] PHP  13. Illuminate\Console\Command->run() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:185
+[29-Jun-2017 09:55:33 UTC] PHP  14. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:155
+[29-Jun-2017 09:55:33 UTC] PHP  15. Illuminate\Console\Command->execute() /home/ubuntu/workspace/cms/vendor/symfony/console/Command/Command.php:256
+[29-Jun-2017 09:55:33 UTC] PHP  16. Illuminate\Container\Container->call() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Console/Command.php:169
+[29-Jun-2017 09:55:33 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[29-Jun-2017 09:55:33 UTC] PHP  18. Illuminate\Database\Console\Migrations\ResetCommand->fire() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[29-Jun-2017 09:55:33 UTC] PHP  19. Illuminate\Database\Migrations\Migrator->reset() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/ResetCommand.php:69
+[29-Jun-2017 09:55:33 UTC] PHP  20. Illuminate\Database\Migrations\Migrator->runDown() /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:206
